@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<import src="../menu/menu-template.wxml" />
+<import src="../hearder/header-template.wxml" />
+
+<view class="container">
+  <swiper indicator-dots="true" autoplay="{{Aplay}}"> 
+  <swiper-item wx:for="{{srcArr}}" wx:key="index">
+  <image src="{{item}}">
+  </image>
+  </swiper-item>
+  </swiper>
+
+  <view class="menu">
+    <block wx:for="{{menus}}">
+      <view catchtap="toHotPush" data-index="{{index}}">
+        <template is="menu" data="{{...item}}"></template>
+      </view>
+    </block>
+  </view>
+ 
+
+
+</view>
+<view class="tu">
+  <image src="../home/pic/1.jpg"> </image>
+  <image src="../home/pic/2.jpg"> </image>
+  <image src="../home/pic/3.jpg"> </image>
+</view>

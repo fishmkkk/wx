@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/sousuo/sousuo",
+    "pages/index/index",
+    "pages/no/no",
+    "pages/list/list",
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/out/out"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#e89abe",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/pages/home/pic/bok2.png",
+        "selectedIconPath": "/pages/home/pic/bok1.png"
+      },
+      {
+        "pagePath": "pages/no/no",
+        "text": "榜单",
+        "iconPath": "/pages/home/pic/榜单1.png",
+        "selectedIconPath": "/pages/home/pic/榜单.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "/pages/home/pic/list1.png",
+        "selectedIconPath": "/pages/home/pic/书单.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/pages/home/pic/我 的.png",
+        "selectedIconPath": "/pages/home/pic/mine.png"
+      }
+    ],
+    "selectedColor": "#e89abe",
+    "borderStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  }
